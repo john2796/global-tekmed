@@ -52,8 +52,8 @@ export default function Home() {
           </Link>
         )}
 
-        <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
       </div>
+      <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
 
     </main>
   );
